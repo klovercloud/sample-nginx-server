@@ -22,7 +22,7 @@ docker run -d --read-only --tmpfs=/var/cache/nginx --tmpfs=/var/log/nginx --tmpf
 ####
 ### Run in KloverCloud
 - Persistent Volume is required
-- The following paths should be in the Volume Mount paths
-/var/cache/nginx
-/var/log/nginx
-/etc/nginx/run
+- The following paths should be in the Volume Mount paths\
+/var/cache/nginx\
+/var/log/nginx\
+/etc/nginx/run\
